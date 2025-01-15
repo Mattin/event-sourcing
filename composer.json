@@ -21,9 +21,15 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {
+        "type": "vcs",
+        "url": "https://github.com/Mattin/event-store.git"
+        }
+    ],
     "require": {
         "php": "^8.0",
-        "prooph/event-store" : "^7.0"
+        "prooph/event-store" : "dev-hotfix/php8.4-support"
     },
     "require-dev": {
         "psr/container": "^1.0",
