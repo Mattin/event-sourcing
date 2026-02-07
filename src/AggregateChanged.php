@@ -23,6 +23,10 @@ class AggregateChanged extends DomainEvent
      */
     protected $payload = [];
 
+    public function __invoke(DomainEvent $event): void
+    {
+    }
+
     /**
      * @return static
      */
